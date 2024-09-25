@@ -107,6 +107,7 @@ class HomePage extends StatelessWidget {
                 onPressed: () {
                   picker.DatePicker.showDatePicker(context,
                       showTitleActions: true,
+                      title: "choose date",
                       minTime: DateTime(2018, 3, 5),
                       maxTime: DateTime(2019, 6, 7),
                       theme: picker.DatePickerTheme(
@@ -161,6 +162,7 @@ class HomePage extends StatelessWidget {
                 onPressed: () {
                   picker.DatePicker.showDateTimePicker(context,
                       showTitleActions: true,
+                      title: "选择日期时间",
                       minTime: DateTime(2020, 5, 5, 20, 50),
                       maxTime: DateTime(2020, 6, 7, 05, 09), onChanged: (date) {
                     print('change $date in time zone ' +
