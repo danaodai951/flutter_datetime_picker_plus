@@ -520,7 +520,7 @@ class _DatePickerState extends State<_DatePickerComponent> {
               },
             ),
           ),
-          Expanded(child: Center(child: Text(title??"", style: TextStyle(color: Color(0xFF333333), fontSize: 18, fontWeight: FontWeight.bold)))),
+          Expanded(child: Center(child: Text(title??"", style: TextStyle(color: Color(0xFF333333), fontSize: 16, fontWeight: FontWeight.bold)))),
           Container(
             height: theme.titleHeight,
             child: CupertinoButton(
